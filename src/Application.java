@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Application {
 
   public static void main(String[] args) {
@@ -56,6 +58,13 @@ public class Application {
 
     // `git checkout <name>` - производит переключение репозитория на ветку
     // название которой указано в команде.
+
+    System.out.println("Insertion Sort");
+
+    int[] array = new int[]{7, -3, 2, 15, 11};
+    Sort sort = new InsertionSort();
+    sort.sort(array);
+    System.out.println(Arrays.toString(array));
   }
 }
 
