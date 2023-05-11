@@ -56,6 +56,8 @@ public class Application {
 
     // `git checkout <name>` - производит переключение репозитория на ветку
     // название которой указано в команде.
+
+    System.out.println("Java Application");
   }
 }
 
