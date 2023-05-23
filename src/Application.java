@@ -77,6 +77,10 @@ public class Application {
         Sort sort = new InsertionSort();
         sort.sort(array);
         System.out.println(Arrays.toString(array));
+
+        Message message1 = new Message("a");
+        Message message2 = new Message("b");
+        System.out.println(message1.equals(message2));
     }
 }
 
